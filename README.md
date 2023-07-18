@@ -49,3 +49,36 @@ Deux commutateurs multi-niveaux sont utilisés pour la distribution du trafic à
 f. Subnets :
 Quatre sous-réseaux ont été créés pour les différentes entités de l'entreprise : RH, DSI, Finance et Serveurs. Chaque sous-réseau est équipé de deux PC, un ordinateur portable, un point d'accès et des périphériques sans fil. Le sous-réseau Serveurs héberge également le serveur DHCP, le serveur DNS et le PC d'administration.
 
+# Solutions de Sécurité:
+
+a. Authentification et Gestion des Accès :
+Tous les périphériques du réseau doivent être configurés avec des identifiants d'accès uniques et des mots de passe forts. Il est recommandé d'utiliser une politique de gestion des accès qui inclut des politiques de rotation régulières des mots de passe et des mécanismes d'authentification forte, tels que l'utilisation de certificats.
+
+b. Contrôle d'Accès et Segmentation :
+Utilisez des listes de contrôle d'accès (ACL) pour limiter les flux de trafic entre les différentes zones du réseau. Configurez les pare-feu pour autoriser uniquement les connexions nécessaires et restreindre le trafic non autorisé.
+
+c. Surveillance et Détection d'Intrusion :
+Mettez en place des outils de surveillance réseau et des systèmes de détection d'intrusion (IDS) pour détecter les activités suspectes ou les tentatives d'intrusion. Ces outils peuvent alerter les administrateurs en cas d'événements de sécurité et permettre une réponse rapide aux incidents.
+
+d. Chiffrement et VPN :
+Pour assurer la confidentialité des données sensibles, il est recommandé d'utiliser des connexions VPN (Virtual Private Network) pour les communications entre les différents sites de l'entreprise ou pour les accès à distance. Les données transitant via les VPN doivent être chiffrées pour empêcher toute interception ou compromission.
+
+e. Mise à jour et Gestion des Correctifs :
+Il est essentiel de maintenir tous les équipements réseau à jour avec les derniers correctifs de sécurité. Assurez-vous de mettre en place une politique de gestion des correctifs pour garantir que les vulnérabilités connues sont rapidement corrigées.
+
+f. Formation en Sensibilisation à la Sécurité :
+La sensibilisation à la sécurité est un élément crucial pour garantir la sécurité globale du réseau. Organisez régulièrement des sessions de formation et de sensibilisation à la sécurité pour tous les employés, afin de les informer des bonnes pratiques de sécurité, des risques potentiels et des mesures à prendre en cas d'incident.
+
+Antivirus :
+Les solutions antivirus sont essentielles pour détecter et éliminer les logiciels malveillants, les virus et les programmes indésirables. Elles doivent être déployées sur tous les systèmes, y compris les serveurs et les postes de travail, pour assurer une protection proactive contre les menaces.
+
+XDR (Extended Detection and Response) :
+Le XDR est une approche de sécurité étendue qui intègre la détection et la réponse des menaces sur plusieurs couches du réseau et des systèmes. Il collecte et analyse les données provenant de diverses sources, y compris les endpoints, les réseaux, les applications et les serveurs, afin de détecter les menaces avancées et d'y répondre rapidement.
+
+EDR (Endpoint Detection and Response) :
+L'EDR se concentre spécifiquement sur la détection et la réponse des menaces au niveau des endpoints (terminaux). Il surveille en temps réel les activités suspectes sur les endpoints, tels que les comportements malveillants, les tentatives d'intrusion et les activités de logiciels malveillants, et prend des mesures pour y remédier.
+
+SIEM (Security Information and Event Management) :
+Le SIEM est une solution de gestion des informations et des événements de sécurité qui collecte, corréle et analyse les journaux et les événements de sécurité à partir de diverses sources dans le réseau. Il permet aux équipes de sécurité de détecter les incidents, d'enquêter sur les menaces et de prendre des mesures appropriées en temps opportun.
+
+Ces solutions de sécurité supplémentaires, telles que les antivirus, XDR, EDR et SIEM, sont souvent intégrées dans un cadre global de sécurité d'entreprise. Elles renforcent la détection, la protection et la réponse aux menaces sur le réseau et les systèmes de l'entreprise. En les ajoutant à votre réseau d'entreprise, vous améliorez la sécurité globale en surveillant et en protégeant activement contre les menaces connues et émergentes.
